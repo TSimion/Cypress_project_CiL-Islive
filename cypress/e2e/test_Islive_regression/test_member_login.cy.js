@@ -11,7 +11,7 @@ describe('test.islive login test', () => {
       cy.get('[type="submit"]').click();
       cy.get('button[class*="whitelabel-btn"]').eq(2).contains('Friday');
 
-      // Log out Member
+      // Log out Member ceva iun plus
 
       cy.get('button[class*="whitelabel-btn"]').eq(2).click({force: true});
       cy.get('span[class*="tw-text-black"]').eq(1).click({force: true});
