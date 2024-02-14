@@ -1,0 +1,25 @@
+{
+  "name": "cypress-install",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:dashboard": "npx cypress run --record --key 5dd1b947-6c01-4b65-add1-31c3abca44af"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.9.0",
+    "cypress-mailslurp": "^1.7.0",
+    "cypress-v10-preserve-cookie": "^1.2.1"
+  },
+  "dependencies": {
+    "@icokie/cypress-webhooksite": "^2.0.2",
+    "@testing-library/cypress": "^9.0.0",
+    "serve": "^14.2.0",
+    "typescript": "^5.0.4"
+  }
+}
